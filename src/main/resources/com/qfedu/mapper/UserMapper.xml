@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qfedu.mapper.UserMapper">
+    <select id="isLogin" parameterType="user" resultType="int">
+        select count(1) from user where email = #{email} and password = #{password}
+    </select>
+
+    <insert id="saveUser" parameterType="user">
+        insert into user (email, password) value (#{email}, #{password})
+    </insert>
+
+    <select id="getEmail" parameterType="user" resultType="int">
+        select count(1) from user where email = #{email}
+    </select>
+
+    <select id="selectUserByEmail" resultType="user">
+        select * from user where email = #{email}
+    </select>
+
+    <select id="selectByEmail" resultType="user">
+        select * from user where email = #{email}
+    </select>
+
+    <update id="updateProfile" parameterType="user">
+        update user set nickName = #{nickName}, sex = #{sex},  birthday = #{birthday}, address = #{address} where id = #{id}
+    </update>
+
+    <update id="updatePassword" parameterType="user">
+        update user set password = #{password} where email = #{email}
+    </update>
+
+    <select id="validatePassword" parameterType="user" resultType="int">
+        select count(1) from user where email = #{email} and password = #{password}
+    </select>
+
+    <update id="updateUserImageByEmail" parameterType="user">
+        update user set imgUrl = #{imgUrl} where email = #{email}
+    </update>
+
+    <update id="updateUserValidateCodeByEmail" parameterType="user">
+        update user set code = #{code} where email = #{email}
+    </update>
+
+    <select id="validateEmailCode" parameterType="user" resultType="int">
+        select count(1) from user where code = #{code} and email = #{email}
+    </select>
+
+    <update id="resetPassword" parameterType="user">
+        update user set password = #{password} where email = #{email}
+    </update>
+</mapper>

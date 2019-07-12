@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qfedu.mapper.TeacherMapper">
+    <select id="selectAllTeacher" resultType="Speaker">
+        select * from speaker
+    </select>
+
+    <delete id="deleteTeacher" parameterType="int">
+        delete from speaker where id = #{id}
+    </delete>
+
+    <insert id="saveSpeaker" parameterType="Speaker">
+        <selectKey keyColumn="id" resultType="int" keyProperty="id" order="AFTER">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into speaker (id, speaker_name, speaker_desc, speaker_job, head_img_url) value (null, #{speaker_name}, #{speaker_desc}, #{speaker_job}, #{head_img_url})
+    </insert>
+
+    <update id="updateSpeakerById" parameterType="Speaker">
+        update speaker set speaker_name = #{speaker_name}, speaker_desc = #{speaker_desc}, speaker_job = #{speaker_job}, head_img_url = #{head_img_url} where id = #{id}
+    </update>
+
+    <select id="getSpeakerById" parameterType="int" resultType="Speaker">
+        select * from speaker where id = #{id}
+    </select>
+
+    <select id="getCount" parameterType="Speaker" resultType="int">
+        select count(1) from speaker
+    </select>
+
+    <select id="selectAllSpeaker" resultType="Speaker">
+        select * from speaker limit #{begin}, #{rows}
+    </select>
+
+    <select id="selectSpeakerById" parameterType="int" resultType="speaker">
+        select * from speaker where id = #{speaker_id}
+    </select>
+</mapper>
