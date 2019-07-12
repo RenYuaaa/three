@@ -1,233 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6aa36f12-b9af-479a-900f-9d32abc6e8d6" name="Default Changelist" comment="">
+    <list default="true" id="6aa36f12-b9af-479a-900f-9d32abc6e8d6" name="Default Changelist" comment="第一次上传video项目">
       <change afterPath="$PROJECT_DIR$/${IMAGE_DIR}2019-06-27/55d24eae71674af68fe3eeb460c21d95.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/${IMAGE_DIR}2019-06-27/5f189a796e4e4ca38eb4e8f89a6578b8.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/${IMAGE_DIR}2019-06-27/81e22553c33548e89fa923e129a1eca2.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/${IMAGE_DIR}2019-06-27/c7e2baf82b2b4192b0cb42953891cd5b.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/${IMAGE_DIR}2019-06-27/e0a9f68348a7457dac237dd7991343f7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IDEAMyBatisDemoaxis.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVAimages2019-06-27/21cd2669ff5746f3a2fcc4f104d74a95.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVAimages2019-06-27/ee23d8ace926401f891b9c195c30dd59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/ClassController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/controller/VideosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/ClassMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/mapper/VideoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/pojo/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/pojo/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/pojo/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/pojo/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/ClassService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/VideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/ClassServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/TeacherServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/utils/ImageCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/utils/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/utils/NavigationTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/utils/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qfedu/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/adminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/classMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/teacherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/qfedu/mapper/videoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/conf.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addClass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addTeacher.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addvideo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/change_avatar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/change_profile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/course.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/forget_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/my_profile.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/password_safe.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/reset_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/before/section.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/classManager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moviesList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/personManager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/commons.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._font" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._forget_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._jquery.Jcrop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/._video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/._vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/._vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/._vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/._vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/forget_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery.Jcrop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/headImg/2abf9b65-0172-4c54-b08a-d3674d729835.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/headImg/410ec19c-8752-42c4-ab9f-8afcfaab09a8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/headImg/77f57ab3-fa46-4cd6-822e-e78310095c8f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/headImg/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/headImg/aab7d91b-88ce-4e76-b218-2f9d586bcdf5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/headImg/avatar_lg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/headImg/fd3ca37d-1d79-4160-be04-66d507fdcbf4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/android.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/avatar_lg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bigdata.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/count.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/footer1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/footer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/footer3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/footer4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/footer_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hl_scroll_left1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/html5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/java.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/left-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/nav_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/nav_down2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/php.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/python.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/q.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/qidai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/right-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/teacher-wjh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/tele.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/we.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/yzm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/微信公众号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/微博公众号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._Jcrop_upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._jquery-1.8.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._jquery.Jcrop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._jquery.cityselect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._mobile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._readmore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._skin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._vueCourse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/._vueSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/Jcrop_upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/gVerify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.Jcrop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.cityselect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/mobile/._layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/mobile/._need" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/mobile/need/._layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/readmore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/._default" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/._icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/._icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/._layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/._loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/._loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/._loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vueCourse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vueSection.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/qfedu/controller/AdminController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/qfedu/controller/ClassController.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/com/qfedu/controller/TeacherController.class" afterDir="false" />
@@ -323,6 +102,7 @@
       <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/video/org/apache/jsp/WEB_002dINF/jsp/personManager_jsp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/video/org/apache/jsp/index_jsp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/video/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -606,7 +386,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -765,6 +544,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -870,15 +650,24 @@
       <workItem from="1562850313779" duration="285000" />
       <workItem from="1562859181134" duration="302000" />
       <workItem from="1562920350935" duration="2253000" />
-      <workItem from="1562933165758" duration="198000" />
+      <workItem from="1562933165758" duration="782000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次上传video项目">
+      <created>1562933621149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562933621149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213393000" />
+    <option name="totallyTimeSpent" value="214175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -898,9 +687,9 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -951,7 +740,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="第一次上传video项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次上传video项目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
