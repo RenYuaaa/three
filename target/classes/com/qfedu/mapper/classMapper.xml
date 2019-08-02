@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qfedu.mapper.ClassMapper">
+    <select id="selectAllClass" resultType="Course">
+        select c.*, subject_name as subjectName from course c left join subject s on c.subject_id = s.id
+    </select>
+
+    <delete id="deleteClass" parameterType="int">
+        delete from course where id = #{id}
+    </delete>
+
+    <insert id="saveClass" parameterType="Course">
+        <selectKey keyColumn="id" resultType="int" keyProperty="id" order="AFTER">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into course (id, course_title, course_desc, subject_id) value (null, #{course_title}, #{course_desc}, #{subject_id})
+    </insert>
+
+    <update id="updateClassById" parameterType="Course">
+        update course set course_title = #{course_title}, course_desc = #{course_desc}, subject_id = #{subject_id} where id = #{id}
+    </update>
+
+    <select id="getClassById" parameterType="int" resultType="Course">
+        select * from course where id = #{id}
+    </select>
+
+    <select id="selectAllSubject" resultType="Subject">
+        select id, subject_name as subjectName from subject
+    </select>
+
+    <select id="selectAllCourse" resultType="Course">
+        select c.*, subject_name as subjectName from course c left join subject s on c.subject_id = s.id limit #{begin}, #{rows}
+    </select>
+
+    <select id="getCount" resultType="int" parameterType="Course">
+        select count(1) from course
+    </select>
+
+    <select id="selectSubjectById" parameterType="int" resultType="subject">
+        select *, subject_name as subjectName from subject where id = #{id}
+    </select>
+
+    <select id="selectCourseBySubjectId" parameterType="int" resultType="course">
+        select * from course where subject_id = #{id}
+    </select>
+
+<!--    <select id="selectSubjectId" parameterType="String" resultType="subject">-->
+<!--        select * from subject where subject_name = #{subjectName}-->
+<!--    </select>-->
+
+    <select id="selectCourseById" parameterType="int" resultType="course">
+        select * from course where id = #{course_id}
+    </select>
+</mapper>

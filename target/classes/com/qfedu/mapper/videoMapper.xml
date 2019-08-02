@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qfedu.mapper.VideoMapper">
+    <sql id="videoSql">
+        select v.* , s.speaker_name from video v left join speaker s on v.speaker_id = s.id
+    </sql>
+    
+    <sql id="whereSql">
+        <where>
+            <if test="title != null and title != ''">
+                and title like '%${title}%'
+            </if>
+            <if test="speaker_id != 0">
+                and speaker_id = #{speaker_id}
+            </if>
+            <if test="course_id != 0">
+                and course_id = #{course_id}
+            </if>
+        </where>
+    </sql>
+    <select id="selectAll" parameterType="Video" resultType="Video">
+        <include refid="videoSql"></include>
+        <include refid="whereSql"></include>
+        limit #{begin}, #{rows}
+    </select>
+
+    <delete id="deleteVideo" parameterType="int">
+        delete from video where id = #{id}
+    </delete>
+
+    <delete id="deleteBatch" parameterType="Video">
+        delete from video where
+        <foreach collection="idList" item="ids" open=" id in (" close=")" separator=",">
+            #{ids}
+        </foreach>
+    </delete>
+
+    <insert id="saveVideo" parameterType="Video">
+        <selectKey keyColumn="id" resultType="int" keyProperty="id" order="AFTER">
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into video (id, title, time, speaker_id, course_id, video_url, image_url, play_num, detail)
+        value (null, #{title}, #{time}, #{speaker_id}, #{course_id}, #{video_url}, #{image_url}, #{play_num}, #{detail})
+    </insert>
+
+    <select id="getVideoById" parameterType="int" resultType="Video">
+        select * from video where id = #{id}
+    </select>
+
+    <update id="updateVideoById" parameterType="Video">
+        update video set title = #{title}, time = #{time}, speaker_id = #{speaker_id}, course_id = #{course_id}, video_url = #{video_url}, image_url = #{image_url}, detail = #{detail} where id = #{id}
+    </update>
+
+    <select id="getCount" parameterType="Video" resultType="int">
+        select count(1) from video
+        <include refid="whereSql"></include>
+    </select>
+
+    <select id="selectVideoListByCourseId" parameterType="int" resultType="video">
+        select * from video where course_id = #{id}
+    </select>
+
+    <select id="selectVideoById" parameterType="int" resultType="video">
+        select v.*, s.speaker_name, sub.subject_name as subjectName from video v, speaker s, course c, subject sub where v.speaker_id = s.id and v.course_id = c.id and c.subject_id = sub.id and v.id = #{videoId}
+    </select>
+
+    <select id="selectAllBySubjectName" parameterType="String" resultType="video">
+        select v.*, s.speaker_name, sub.subject_name as subjectName from video v, speaker s, course c, subject sub where v.speaker_id = s.id and v.course_id = c.id and c.subject_id = sub.id and sub.subject_name = #{subjectName}
+    </select>
+
+    <update id="updatePlayNum" parameterType="video">
+        update video set play_num = #{play_num} + 1 where id = #{id}
+    </update>
+</mapper>

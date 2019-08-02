@@ -5,7 +5,7 @@
 
 <mapper namespace="com.qfedu.mapper.VideoMapper">
     <sql id="videoSql">
-        select v.* , s.speaker_name from video v left join  speaker s on v.speaker_id = s.id
+        select v.* , s.speaker_name from video v left join speaker s on v.speaker_id = s.id
     </sql>
     
     <sql id="whereSql">
