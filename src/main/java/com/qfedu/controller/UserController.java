@@ -256,6 +256,8 @@ public class UserController {
     @ResponseBody
     public String sendEmail(String email) {
         //这里是利用MailUtils工具类，获取6位数的随机验证码
+
+
         String validateCode = MailUtils.getValidateCode(6);
         MailUtils.sendMail(email, "您好:<br/>您本次的验证码是" + validateCode + ",请于两小时内输入，否则失效。", "Y先生学习网忘记密码验证码邮件");
         User user = new User();
